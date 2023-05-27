@@ -1,0 +1,74 @@
+Admin@DESKTOP-L6HIKBL MINGW64 /d/Пользователи/Admin/Desktop/gitTest1/gitTest1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+---------------------------------------------------------------------
+Admin@DESKTOP-L6HIKBL MINGW64 /d/Пользователи/Admin/Desktop/gitTest1/gitTest1 (main)
+$ git branch
+* main
+  newbranch
+-----------------------------------------------------------------------
+Admin@DESKTOP-L6HIKBL MINGW64 /d/Пользователи/Admin/Desktop/gitTest1/gitTest1 (main)
+$ git log
+commit 381b79d17e1c6378b3881f2b67472121b2c00b61 (HEAD -> main, origin/main, origin/HEAD)
+Author: mnnglss_xstnc <123580696+mnnglssxstnc@users.noreply.github.com>
+Date:   Sat May 27 13:18:15 2023 +0300
+
+    Create style.css
+
+    created style.css
+
+commit d5f081dfb6ef0570673fc45aadc8f9faccde6f30
+Merge: c28ff56 1645d9d
+Author: mnnglssxstnc <prostoprofile571705@gmail.com>
+Date:   Sat May 27 13:16:33 2023 +0300
+
+    resolved merge conflict
+
+commit c28ff56368f7f3891c49536b2f9623201aca7c10
+Author: mnnglssxstnc <prostoprofile571705@gmail.com>
+Date:   Sat May 27 13:12:20 2023 +0300
+
+    added a new line of text Hello World!
+
+commit 1645d9d883c68e296b681e8bb6f596e7b3b0ff5e (origin/newbranch, newbranch)
+Author: mnnglssxstnc <prostoprofile571705@gmail.com>
+Date:   Sat May 27 13:08:37 2023 +0300
+
+    added one more line of text(2)
+
+commit f5d05ac8c82edb6fdc7277d47872dc1d0c559c52
+Author: mnnglssxstnc <prostoprofile571705@gmail.com>
+Date:   Sat May 27 13:07:47 2023 +0300
+
+    added one more line of text
+
+commit 1879c532307a780161d609488b8198d8d8aedb24
+Author: mnnglssxstnc <prostoprofile571705@gmail.com>
+Date:   Sat May 27 13:06:52 2023 +0300
+
+    added a line of text
+
+commit cf6a704ef9b4a7352b671ec98aadda9f9da92977
+Author: mnnglssxstnc <prostoprofile571705@gmail.com>
+Date:   Sat May 27 13:04:16 2023 +0300
+
+    created index.html
+
+commit 8363b3746348876b0b0f44feb17d1cbec2f1873b
+Author: mnnglss_xstnc <123580696+mnnglssxstnc@users.noreply.github.com>
+Date:   Sat May 27 12:57:46 2023 +0300
+
+    Initial commit
+------------------------------------------------------------------------------
+Admin@DESKTOP-L6HIKBL MINGW64 /d/Пользователи/Admin/Desktop/gitTest1/gitTest1 (main)
+$ git log --merges
+commit d5f081dfb6ef0570673fc45aadc8f9faccde6f30
+Merge: c28ff56 1645d9d
+Author: mnnglssxstnc <prostoprofile571705@gmail.com>
+Date:   Sat May 27 13:16:33 2023 +0300
+
+    resolved merge conflict
+
